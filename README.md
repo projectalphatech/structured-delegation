@@ -6,6 +6,12 @@
 
 *The structured brief pattern that prevents the 3 most common delegation failures: pre-build traps, build loops, and silent execution.*
 
+## 📸 Demo
+
+![Structured Delegation Flow](https://github.com/projectalphatech/structured-delegation/blob/main/assets/delegation-flow.png)
+
+<!-- Placeholder image — replace with a real diagram of the delegation flow -->
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Agent OS](https://img.shields.io/badge/Part_of-agent--os-6B46C1)](https://github.com/projectalphatech/agent-os)
 [![Stars](https://img.shields.io/github/stars/projectalphatech/structured-delegation?style=social)](https://github.com/projectalphatech/structured-delegation)
@@ -177,9 +183,13 @@ REPORT
 
 ---
 
-## 🔗 Part of agent-os
+## 🔗 Part of the Project Alpha ecosystem
 
-This skill is the foundation of the [agent-os](https://github.com/projectalphatech/agent-os) pattern. Use it standalone or as part of the full operating system.
+- [agent-os](https://github.com/projectalphatech/agent-os) — the operating system for coordinating specialized AI agents
+- [structured-delegation](https://github.com/projectalphatech/structured-delegation) — delegation briefs + anti-patterns that prevent build failures
+- [arabic-edge-pdf](https://github.com/projectalphatech/arabic-edge-pdf) — Arabic PDF generation at the edge, zero tofu, zero libraries
+- [gps-cluster-engine](https://github.com/projectalphatech/gps-cluster-engine) — group GPS points by proximity with capacity constraints
+- [nextjs-cloudflare-deploy](https://github.com/projectalphatech/nextjs-cloudflare-deploy) — the definitive Next.js + Cloudflare Workers deployment guide
 
 ---
 
