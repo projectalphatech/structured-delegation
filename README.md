@@ -6,6 +6,9 @@
 
 *The structured brief pattern that prevents the 3 most common delegation failures: pre-build traps, build loops, and silent execution.*
 
+> **"Brief + Verification + Gate" bundle is now taught in agent literacy programs.** This isn't our invention — it's the industry standard for reliable delegation.
+
+
 ## 📸 Demo
 
 ![Structured Delegation Flow](https://github.com/projectalphatech/structured-delegation/blob/main/assets/delegation-flow.png)
@@ -110,6 +113,10 @@ STOP AND RETURN IF:
 
 ## 💀 The 3 Traps
 
+Research identifies **six delegation patterns** and **four verification gate types**. Delegation without verification is classified as an anti-pattern that creates "blind-shifting" and integration burden.
+
+The three traps below are the most common failures we've encountered in production.
+
 ### Trap 1: Pre-build
 
 **The pattern:** You scaffold, configure, write schema, or build anything before invoking the specialist.
@@ -139,6 +146,21 @@ STOP AND RETURN IF:
 **The rule:** Use `notify_on_complete=true`, redirect to a log file, poll periodically with `process(action="poll")`. Do not assume silence means failure.
 
 → [Full reference](references/delegation-pitfall-silent.md)
+
+---
+
+## 🛡️ Defensive delegation patterns
+
+Choose your pattern based on security requirements:
+
+| Pattern | Risk profile | Use when |
+|---|---|---|
+| **Boss-worker** | Concentrated risk | Single agent delegates to subordinates |
+| **Pipeline** | Isolated failure domains | Each step is independent |
+| **Voting** | Redundancy at cost | Accuracy matters more than speed |
+| **Isolated-exposure** | Minimal blast radius | Untrusted or external agents |
+
+See the [WeeSec defensive delegation framework](https://www.weesec.com/en/articles/ai-agent-delegation-defensive-patterns.html) for the full taxonomy.
 
 ---
 
