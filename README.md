@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📋 structured-delegation
+# structured-delegation
 
 **Delegate to AI agents without the pain.**
 
@@ -9,19 +9,17 @@
 > **"Brief + Verification + Gate" bundle is now taught in agent literacy programs.** This isn't our invention — it's the industry standard for reliable delegation.
 
 
-## 📸 Demo
+## Demo
 
-![Structured Delegation Flow](https://github.com/projectalphatech/structured-delegation/blob/main/assets/delegation-flow.png)
 
-<!-- Placeholder image — replace with a real diagram of the delegation flow -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Agent OS](https://img.shields.io/badge/Part_of-agent--os-6B46C1)](https://github.com/projectalphatech/agent-os)
 [![Stars](https://img.shields.io/github/stars/projectalphatech/structured-delegation?style=social)](https://github.com/projectalphatech/structured-delegation)
 
-[Quick Start](#-quick-start) •
-[The 3 Traps](#-the-3-traps) •
-[Pattern](#-the-pattern) •
+[Quick Start](#quick-start) •
+[The 3 Traps](#the-3-traps) •
+[Pattern](#the-pattern) •
 [References](references/) •
 [Examples](examples/)
 
@@ -29,7 +27,7 @@
 
 ---
 
-## 🤔 Why this exists
+## Why this exists
 
 You delegated a task to an AI agent. It failed. You don't know why.
 
@@ -45,7 +43,7 @@ This skill documents the pattern that prevents all three.
 
 ---
 
-## ✨ What you get
+## What you get
 
 | Feature | Status |
 |---|---|
@@ -57,7 +55,7 @@ This skill documents the pattern that prevents all three.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Write a structured brief
 
@@ -111,7 +109,7 @@ STOP AND RETURN IF:
 
 ---
 
-## 💀 The 3 Traps
+## The 3 Traps
 
 Research identifies **six delegation patterns** and **four verification gate types**. Delegation without verification is classified as an anti-pattern that creates "blind-shifting" and integration burden.
 
@@ -149,7 +147,7 @@ The three traps below are the most common failures we've encountered in producti
 
 ---
 
-## 🛡️ Defensive delegation patterns
+## Defensive delegation patterns
 
 Choose your pattern based on security requirements:
 
@@ -164,7 +162,7 @@ See the [WeeSec defensive delegation framework](https://www.weesec.com/en/articl
 
 ---
 
-## 🏗️ The pattern
+## The pattern
 
 ```
 UNDERSTAND OBJECTIVE
@@ -184,7 +182,7 @@ REPORT
 
 ---
 
-## 📚 References
+## References
 
 - [Pre-build pitfall](references/delegation-pitfall-prebuild.md)
 - [Build loop pitfall](references/delegation-pitfall-longcat-build-loop.md)
@@ -195,7 +193,7 @@ REPORT
 
 ---
 
-## 📖 Examples
+## Examples
 
 - [Research brief](examples/RESEARCH_BRIEF.md)
 - [Implementation brief](examples/IMPLEMENTATION_BRIEF.md)
@@ -205,7 +203,7 @@ REPORT
 
 ---
 
-## 🔗 Part of the Project Alpha ecosystem
+## Part of the Project Alpha ecosystem
 
 - [agent-os](https://github.com/projectalphatech/agent-os) — the operating system for coordinating specialized AI agents
 - [structured-delegation](https://github.com/projectalphatech/structured-delegation) — delegation briefs + anti-patterns that prevent build failures
@@ -215,7 +213,7 @@ REPORT
 
 ---
 
-## 📄 License
+## License
 
 MIT © [Project Alpha Tech](https://projectalpha.tech)
 
