@@ -27,6 +27,19 @@
 
 ---
 
+## Install as a Claude Code skill
+
+```bash
+/add-plugin projectalphatech/structured-delegation
+```
+
+Or manually:
+```bash
+git clone https://github.com/projectalphatech/structured-delegation ~/.claude/skills/structured-delegation
+```
+
+---
+
 ## Why this exists
 
 You delegated a task to an AI agent. It failed. You don't know why.

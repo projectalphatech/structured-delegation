@@ -1,0 +1,16 @@
+{
+  "name": "structured-delegation",
+  "description": "Delegate to AI agents without the build-loop pain. Prevents the three most common delegation failures \u2014 scaffolding before handing off, lightweight models stuck in fix loops, and silent execution. Use when delegating software implementation, research, or commercial analysis to any AI agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Project Alpha Tech"
+  },
+  "homepage": "https://github.com/projectalphatech/structured-delegation",
+  "license": "MIT",
+  "keywords": [
+    "delegation",
+    "ai-agents",
+    "briefs",
+    "anti-patterns"
+  ]
+}
